@@ -57,7 +57,7 @@ height: 32px;
 .header_main-illustration {
   margin: 0;
   position: absolute;
-  bottom: 37px;
+  bottom: 0;
   right: 0;
   height: 608px;
   width: 765px;
