@@ -115,7 +115,7 @@ height: 32px;
   display: flex;
   margin: 0;
   padding: 0;
-  width: 500px;
+  width: 175px;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
@@ -127,13 +127,12 @@ height: 32px;
   flex-direction: column;
   justify-content: space-between;
   margin: 0;
-  margin-left: 70px;
+  margin-left: 90px;
   padding: 0;
 }
 
 .two-columns__paragraph {
   display: flex;
-  align-items: center;
   font-size: 24px;
   line-height: 34px;
   margin: 0;
@@ -142,8 +141,6 @@ height: 32px;
 
 .two-columns__span-accent {
   font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .digits {
@@ -309,7 +306,6 @@ z-index: 1;
 .table__dark {
   display: grid;
   margin: 0 auto;
-  margin-top: 90px;
   margin-top: 90px;
   width: 1110px;
   grid-template-columns: 200px 200px 200px 200px 200px;
