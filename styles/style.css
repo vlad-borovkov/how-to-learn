@@ -19,6 +19,7 @@
   justify-content: center;
   position: relative;
   background-color: #f2f2f2;
+  z-index: 0;
 }
 
 .logo {
@@ -31,7 +32,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 6;
+  z-index: 3;
 }
 
 .header__title {
@@ -41,6 +42,7 @@
   font-weight: 600;
   width: 730px;
   margin-left: 64px;
+  z-index: 3;
 }
 
 .header__subtitle {
@@ -52,6 +54,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 3;
 }
 
 .header__main-illustration {
@@ -61,7 +64,7 @@
   right: 0;
   height: 608px;
   width: 765px;
-  z-index: 6;
+  z-index: 2;
 }
 
 .header__link {
@@ -76,7 +79,7 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  z-index: 0;
+  z-index: 1;
 }
 
 .content {
@@ -391,7 +394,7 @@
   color: white;
 }
 
-.column__content_info {
+.footer__column_content_info {
 
 }
 
