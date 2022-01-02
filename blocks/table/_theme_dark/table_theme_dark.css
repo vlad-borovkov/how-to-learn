@@ -1,0 +1,12 @@
+.table_theme_dark {
+  display: grid;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 90px;
+  width: 1110px;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  grid-row-gap: 80px;
+  justify-content: space-between;
+  border-color: white;
+  z-index: 3;
+}
